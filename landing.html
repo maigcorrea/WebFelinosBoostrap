@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar  fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Offcanvas navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <body>
+        <section id="portada">
+            <div class="container-fluid portada">
+                <div class="row">
+                    <div class="col front-image">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center my-5">
+                        <h2>Explora cada felino visto en el documental</h2>
+                    </div>
+                    <div class="col-md-3 img-felino">
+                        <div class="card img-felino-cont bg-transparent text-dark text-bg-dark">
+                            <!-- <img src="./img/pexels-caleb-falkenhagen-216813613-27067813.jpg" class="card-img" alt="..."> -->
+                            <video src="./img/pixabayLeopardo.mp4" class="card-img-top" muted autoplay loop></video>
+                            <div class="card-img-overlay body-card d-flex flex-column justify-content-end">
+                              <h5 class="card-title">Leopardo de las Nieves</h5>
+                              <p class="card-text desc-animal">En las cumbres del Himalaya</p>
+                              <a class="btn verAnimal btn-primary" href="#" role="button">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card img-felino-cont bg-transparent text-dark text-bg-dark">
+                            <img src="./img/puma2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Puma</h5>
+                              <p class="card-text desc-animal">El león de la montaña</p>
+                              <a class="btn verAnimal btn-primary" href="#" role="button">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card img-felino-cont bg-transparent text-dark text-bg-dark">
+                            <img src="./img/jaguar.JPG" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Jaguar</h5>
+                              <p class="card-text desc-animal">El espiritu de la selva</p>
+                              <a class="btn verAnimal btn-primary" href="#" role="button">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card img-felino-cont bg-transparent text-dark text-bg-dark">
+                            <img src="./img/portada.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Lince Ibérico</h5>
+                              <p class="card-text desc-animal">La joya mediterranea</p>
+                              <a class="btn verAnimal btn-primary" href="#" role="button">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="definicion">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="def-title my-5">¿Qué son los felinos?</h2>
+                    </div>
+                    <div class="col-md-9">
+                        <img src="./img/jaguar.JPG" class="w-100 rounded" alt="">
+                    </div>
+                    <div class="col d-flex flex-column justify-content-end">
+                        <p class="text-light">Los félidos, coloquialmente llamados felinos, son una familia de mamíferos placentarios del orden Carnivora. Poseen un cuerpo esbelto, oído agudo, hocico corto y excelente vista. Son los mamíferos cazadores más sigilosos. La mayoría consume exclusivamente carne e ignora cualquier otra comida que no sea una presa viva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center my-5">
+                        <h2>Artículos relacionados</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/africa.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">El habitat de los leopardos se ve amenazado</h5>
+                              <p class="card-text">La reducción de su hábitat, junto con la disminución de sus presas y los conflictos...</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/portada1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Big Cats: El nuevo documental sobre felinos</h5>
+                              <p class="card-text">En conjunto con la universida de Granada, National Geographic ha realizado un nuevo...</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/noticiaFelino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">¿Cuánto sabes sobre los felinos?</h5>
+                              <p class="card-text">Con este test que te llevará tan sólo 5 min, puedes poner a prueba tus conocimientos so...</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
