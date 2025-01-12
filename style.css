@@ -7,15 +7,20 @@
 body{
     background-color: black;
     font-family: "system-ui";
+    color: white;
 }
 
 h2{
     color: white;
 }
+
 /* .portada{
     height: 100vh;
     width: 100vh;
 } */
+#portada h1{
+    font-size: 6rem;
+}
 
 .img-felino{
     height: 350px;
@@ -24,9 +29,13 @@ h2{
 
 .front-image{
     width: 100vh;
-    height: 100vh;
-    background-image: url(./img/portada1.jpeg);
+    height: 70vh;
+    background-image: url(./img/portada2.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 }
 
 .img-felino-cont{
@@ -55,3 +64,117 @@ h2{
 /* .body-card{
     margin-top: 180px;
 } */
+
+footer{
+    background-color: rgb(41, 41, 41);
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+footer .d-flex p{
+    margin-bottom: 0px;
+}
+
+
+
+/* CONTACTO */
+
+#banner_afiliados{
+    height: 100vh;
+    background-image: url(./img/luxa.org-opacity-changed-collage.png);
+    background-size: cover;
+}
+
+#banner_afiliados h1{
+    font-size: 70px;
+}
+
+.titulo_afiliados{
+    height: 100vh;
+    display: flex;
+}
+
+.titulo_afiliados>div{
+    margin: auto;
+}
+
+
+
+/* LEOPARDO DE LAS NIEVES */
+#presentacion_leopardo h1{
+    font-size: 5rem;
+}
+
+#presentacion_leopardo h1::after{
+    content: "";
+    display: block;
+    border-bottom: 4px solid #fecd2f;
+    max-width: 50px;
+    margin: 20px 0px;
+    animation: subrayar 2s ease-in-out forwards;
+    /* margin: 14px auto 15px; */
+}
+
+@keyframes subrayar {
+    from{
+        max-width:50px;
+    }to{
+        max-width: 400px;
+    }
+}
+
+#presentacion_leopardo div img{
+    width: 100%;
+    height: auto;
+}
+
+#presentacion_leopardo .row div:nth-child(3){
+    padding-right: 25px;
+}
+
+#presentacion_leopardo ul li{
+    margin-bottom: 40px;
+}
+
+/* CARRUSEL  */
+
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+
+.carousel-indicators button{
+    width: max-content!important;
+}
+
+.carousel-indicators{
+    position: unset;
+}
+
+.carousel-item .active{
+    display: flex;
+    justify-content: center;
+}
+
+/* .carousel-item img{
+    width: 100%;
+    height: auto;
+} */
+
+.carousel{
+    width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    .carousel{
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px){
+    .carousel{
+        width: 300px;
+    }
+}
