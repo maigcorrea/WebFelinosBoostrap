@@ -115,11 +115,11 @@ footer .d-flex p{
     border-bottom: 4px solid #fecd2f;
     max-width: 50px;
     margin: 20px 0px;
-    animation: subrayar 2s ease-in-out forwards;
+    animation: subrayarLeopardo 2s ease-in-out forwards;
     /* margin: 14px auto 15px; */
 }
 
-@keyframes subrayar {
+@keyframes subrayarLeopardo {
     from{
         max-width:50px;
     }to{
@@ -195,5 +195,58 @@ footer .d-flex p{
 @media (max-width: 576px){
     .carousel{
         width: 300px;
+    }
+}
+
+
+ /* PÁGINA PUMA */
+
+ /* #presentacion_puma{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+ } */
+
+ .puma{
+    background-color: rgba(169, 197, 204, 0.281);
+    border-radius: 20px;
+ }
+
+ .puma h1{
+    padding: 20px 10px;
+ }
+
+ .puma .imagen{
+    height: 60vh;
+ }
+
+ .imagen img{
+    height: 100%;
+ }
+
+ .campo{
+    height: fit-content;
+ }
+
+ .puma span{
+    font-weight: bold;
+ }
+
+ #presentacion_puma h1::after{
+    content: "";
+    display: block;
+    border-bottom: 4px solid #fecd2f;
+    max-width: 10px;
+    margin: 20px 0px;
+    animation: subrayarPuma 2s ease-in-out forwards;
+    /* margin: 14px auto 15px; */
+}
+
+@keyframes subrayarPuma {
+    from{
+        max-width:10px;
+    }to{
+        max-width: 150px;
     }
 }
