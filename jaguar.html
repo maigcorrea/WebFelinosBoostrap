@@ -8,56 +8,133 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="presentacion_jaguar">
+    <section id="presentacion_jaguar">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 text-center my-5">
+            <div class="row text-center">
+                <div class="col-md-12 my-5">
                     <h1>Jaguar</h1>
                 </div>
-                <div class="col-md-3">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                    <div class="card mb-3">
                         <div class="row g-0">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <div class="card-body">
-                              <h5 class="card-title">Características</h5>
-                              <p class="card-text">El jaguar es el tercer felino más grande del mundo, después del tigre y el león. Su pelaje es de color dorado o amarillo con manchas negras, conocidas como "rosetas", que son un patrón distintivo. Al igual que otros felinos, el jaguar tiene garras retráctiles y dientes caninos largos y afilados.</p>
+                              <h5 class="card-title mb-4">Características Físicas</h5>
+                              <div class="card-text">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#caracteristicas">
+                                  Ver
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade text-start" id="caracteristicas" tabindex="-1" aria-labelledby="caracteristicas" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title fs-5" id="caracteristicas">Características</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="./img/jaguar.JPG" alt="">
+                                        <p class="my-5">El jaguar (Panthera onca) es un felino robusto y poderoso, el más grande de América y el tercero más grande del mundo después del tigre y el león. Aquí tienes sus características físicas principales:</p>
+                                        <h5>Tamaño y peso:</h5>
+                                        <ul>
+                                          <li><span>Longitud:</span> Entre 1,2 y 1,8 metros (sin incluir la cola, que mide entre 45 y 75 cm).</li>
+                                          <li><span>Altura:</span> Aproximadamente 63 a 76 cm.</li>
+                                          <li><span>Peso:</span> Varía según el sexo y la región</li>
+                                        </ul>
+                                        <h5>Pelaje y patrón:</h5>
+                                        <ul>
+                                          <li>Su pelaje es corto, denso y suave, de color amarillo dorado o marrón anaranjado en la parte superior, con el vientre más claro o blanco.</li>
+                                          <li>Está cubierto de manchas negras en forma de rosetas que contienen pequeños puntos negros en el centro. Estas rosetas son únicas en cada individuo, como las huellas dactilares.</li>
+                                          
+                                        </ul>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-6">
-                            <img src="./img/j4.jpg" class="img-fluid rounded-end" alt="...">
                           </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                    <div class="card mb-3">
                         <div class="row g-0">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <div class="card-body">
-                              <h5 class="card-title">Dieta</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title mb-4">Hábitos alimenticios</h5>
+                              <div class="card-text">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dieta">
+                                  Ver
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade text-start" id="dieta" tabindex="-1" aria-labelledby="dieta" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title fs-5" id="dieta">Dieta</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="./img/jaguar-hunting-42321-1920x1080.jpg" alt="">
+                                        <p class="my-3">El jaguar (Panthera onca) es un carnívoro oportunista y uno de los depredadores más eficientes de América. Su dieta es extremadamente variada, adaptándose a los animales disponibles en su hábitat. Prefiere cazar durante el amanecer y el anochecer. Usa el acecho y emboscada como técnicas principales de caza. Es un cazador sigiloso, que se acerca lentamente a su presa y luego realiza un ataque rápido consistente en una mordida letal en el cráneo o el cuello, usando su poderosa mandíbula..</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-6">
-                            <img src="./img/j4.jpg" class="img-fluid rounded-end" alt="...">
                           </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-md-3">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                    <div class="card mb-3">
                         <div class="row g-0">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <div class="card-body">
-                              <h5 class="card-title">Hábitat</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title mb-4">Hábitat y entorno</h5>
+                              <div class="card-text">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#habitat">
+                                  Ver
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade text-start" id="habitat" tabindex="-1" aria-labelledby="habitat" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title fs-5" id="habitat">Hábitat</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="./img/Mapa_jaguar.jpg" alt="">
+                                        <p class="my-4">El jaguar (Panthera onca) habita en una amplia variedad de ecosistemas en América, aunque prefiere aquellos con abundante cobertura vegetal y acceso al agua. Se encuentra desde el sur de los Estados Unidos (en el pasado), pasando por América Central, hasta América del Sur, llegando hasta el norte de Argentina. Aunque, actualmente, su rango está reducido principalmente a áreas protegidas y remotas en México, América Central y la región amazónica de América del Sur, siendo la Amazonía su mayor refugio.</p>
+                                        <p>El jaguar es extremadamente adaptable y puede vivir en una variedad de entornos, aunque prefiere ciertas condiciones:</p>
+                                        <ul>
+                                          <li>Selvas tropicales húmedas</li>
+                                          <li>Bosques secos y sabanas</li>
+                                          <li>Montañas</li>
+                                          <li>Desiertos</li>
+                                        </ul>
+
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-6">
-                            <img src="./img/j4.jpg" class="img-fluid rounded-end" alt="...">
                           </div>
                         </div>
                     </div>
@@ -65,24 +142,58 @@
 
 
 
-                <div class="col-md-3">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                    <div class="card mb-3">
                         <div class="row g-0">
-                          <div class="col-md-6">
+                          <div class="col-md-12">
                             <div class="card-body">
-                              <h5 class="card-title">Amenazas</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h5 class="card-title mb-4">Amenazas</h5>
+                              <div class="card-text">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amenazas">
+                                  Ver
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade text-start" id="amenazas" tabindex="-1" aria-labelledby="amenazas" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h4 class="modal-title fs-5" id="amenazas">Amenazas</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="./img/incendio-selva-amazonica-ardiendo-amazonas_700955-2744.png" alt="">
+                                        <p class="my-4">El jaguar (Panthera onca) enfrenta múltiples amenazas que han reducido significativamente su población y área de distribución. Según la Lista Roja de la UICN (Unión Internacional para la Conservación de la Naturaleza), el jaguar está clasificado como Casi Amenazado, aunque las poblaciones en algunas regiones están en mayor peligro. Estas amenazas están relacionadas principalmente con actividades humanas y cambios en su entorno. La pérdida de hábitat es una de las mayores amenazas para el jaguar debido a la deforestación, la expansión agrícola y el desarrollo humano, corredores biológicos como el Corredor Jaguar Mesoamericano están siendo implementados para conectar áreas protegidas y permitir su movimiento entre regiones. Por otra parte, otras amenazas a las que se enfrentan estos animales son:</p>
+                                        <ul>
+                                          <li><span>Caza furtiva: </span>Aunque está prohibida en la mayoría de los países, los jaguares son cazados ilegalmente por su piel, dientes y garras, que son vendidas en mercados negros.</li>
+                                          <li><span>Pérdida de presas: </span>La sobreexplotación y caza de los animales que constituyen la dieta del jaguar (pecaríes, capibaras, caimanes, etc.) reduce su disponibilidad de alimentos, obligando al jaguar a recorrer mayores distancias o a cazar ganado, lo que genera conflictos con los humanos.</li>
+                                          <li><span>Cambio climático: </span>El aumento de incendios forestales y la pérdida de áreas húmedas también afectan a los jaguares, especialmente en regiones como el Pantanal y la Amazonía.</li>
+                                          <li><span>Conflictos con humanos: </span>La expansión de asentamientos humanos en áreas naturales aumenta la probabilidad de encuentros entre jaguares y personas. Además, cuando los jaguares atacan ganado, los ganaderos a menudo los matan como represalia.</li>
+                                        </ul>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                          <div class="col-md-6">
+                          <!-- <div class="col-md-6">
                             <img src="./img/j4.jpg" class="img-fluid rounded-end" alt="...">
-                          </div>
+                          </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="curiosidadesJaguar">
+      <p>Existe una variante melanística (panteras negras) donde el pelaje es completamente negro, aunque las manchas pueden ser visibles bajo cierta luz.</p>
+    </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

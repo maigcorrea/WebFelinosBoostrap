@@ -252,3 +252,12 @@ footer .d-flex p{
 }
 
 
+/* JAGUAR */
+
+#presentacion_jaguar .card{
+    width: 540px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
