@@ -81,29 +81,6 @@ footer .d-flex p{
 
 
 
-/* CONTACTO */
-
-#banner_afiliados{
-    height: 100vh;
-    background-image: url(./img/luxa.org-opacity-changed-collage.png);
-    background-size: cover;
-}
-
-#banner_afiliados h1{
-    font-size: 70px;
-}
-
-.titulo_afiliados{
-    height: 100vh;
-    display: flex;
-}
-
-.titulo_afiliados>div{
-    margin: auto;
-}
-
-
-
 /* LEOPARDO DE LAS NIEVES */
 #presentacion_leopardo h1{
     font-size: 5rem;
@@ -260,4 +237,73 @@ footer .d-flex p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+/* EQUIPO */
+
+#banner_afiliados{
+    height: 75vh;
+    background-image: url(./img/equipo_portada.PNG);
+    background-size:contain;
+    /* background-repeat: no-repeat; */
+    color: whitesmoke;
+}
+
+#banner_afiliados h1{
+    font-size: 70px;
+}
+
+.titulo_afiliados{
+    height: 70vh;
+    display: flex;
+}
+
+.titulo_afiliados>div{
+    margin: auto;
+}
+
+#objetivos .apartado{
+    border: solid 2px black;
+    padding: 20px;
+}
+
+#objetivos p{
+    margin-bottom:0px ;
+}
+
+#contacto{
+    width: 80%;
+    margin: auto;
+}
+
+#contacto .container-fluid{
+    border-top: solid 1px black;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+    /* border: none; */
+    padding: 10px;
+    border-radius: 2px;
+}
+
+form input[type="submit"] {
+    width: 20%;
+    margin: auto;
+    border: none;
+    background-color: rgb(157, 68, 240);
+    border-radius: 2px;
+}
+
+form input[type="submit"]:hover{
+    background-color:  rgb(118, 62, 174);
 }
